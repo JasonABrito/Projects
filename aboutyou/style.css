@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+    color: aliceblue;
+    background-image: url("Violin.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    font-size: 100%;
+    padding-bottom: 2em;
+}
+header{
+    font-family: 'Boogaloo', cursive;
+    font-size: 5em;
+    line-height: 1em;
+}
