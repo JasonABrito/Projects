@@ -15,6 +15,7 @@ header {
     font-size: 5em;
     line-height: 20px;
     padding: 3.3em;
+   
 }
 
 h1 {
@@ -22,9 +23,8 @@ h1 {
     position: relative;
     top: -100px;
     left: -20%;
-    border: 10px solid transparent;
-    border-image: url("Music-with-Rests-outlines.png") 30% round;
-    margin: auto;
+    color: #003399;
+     text-shadow: 0 10px 10px black;
 }
 
 nav {
@@ -32,7 +32,10 @@ nav {
     font-size: 10em;
     line-height: 1em;
     letter-spacing: .5em;
-
+    color: #666699;
+    background-color: rgba(144, 238, 255, 0.2);
+    border-radius: 4%;
+    text-shadow: 0 1px 10px white;
 }
 
 nav li {
@@ -44,10 +47,14 @@ nav li {
 }
 
 article {
-    font-size: 4em;
+    font-size: 2.5em;
     font-family: 'Gamja Flower', cursive;
 }
 
-section {
-    border: 5px solid black;
+article p {
+    position: absolute;
+}
+
+p {
+    color: rgb(0, 0, 0);
 }
