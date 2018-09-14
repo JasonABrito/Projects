@@ -1,3 +1,4 @@
+
 body {
     background-color: lightblue;
     color: aliceblue;
@@ -15,7 +16,7 @@ header {
     font-size: 5em;
     line-height: 20px;
     padding: 3.3em;
-   
+
 }
 
 h1 {
@@ -24,26 +25,29 @@ h1 {
     top: -100px;
     left: -20%;
     color: #003399;
-     text-shadow: 0 10px 10px black;
+    text-shadow: 0 10px 10px black;
 }
 
 nav {
-    font-family: 'Boogaloo', cursive;
+    font-family: 'Anton', sans-serif;
     font-size: 10em;
     line-height: 1em;
     letter-spacing: .5em;
     color: #666699;
     background-color: rgba(144, 238, 255, 0.2);
     border-radius: 4%;
-    text-shadow: 0 1px 10px white;
+    text-shadow: 0 4px 15px white;
+    padding-right: .4em;
+
 }
 
 nav li {
     writing-mode: vertical-rl;
     position: relative;
-    left: 78%;
+    left: 80%;
     top: 20%;
     list-style: none;
+    border: 2px solid black;
 }
 
 article {
@@ -53,8 +57,21 @@ article {
 
 article p {
     position: absolute;
+    padding-left: 1.5em;
 }
 
 p {
-    color: rgb(0, 0, 0);
+    color: midnightblue;
+    text-shadow: 0 1px 15px white;
+    
+}
+footer{
+    background: linear-gradient(rgb(80, 36, 0), rgb(107, 57, 0),lightblue, rgb(80, 36, 0), rgb(107, 57, 0));
+    padding-bottom: 2%;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+section2 p{
+    border: 2px solid black;
+    padding-bottom: 10em;
 }
