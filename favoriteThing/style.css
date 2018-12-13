@@ -1,32 +1,81 @@
-
-body{
+body {
     font-family: 'VT323', monospace;
     background-image: url(Background.png);
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
 }
-header{
-    font-family: 'Press Start 2P' , cursive;
+
+header {
+    font-family: 'Press Start 2P', cursive;
     text-align: center;
     background-size: contain;
 }
-h1{
+
+h1 {
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
 }
-table, td, tr{
-    position: relative;
-    right: 25%;
-    left: 20%;
+
+h2 {
+    font-size: 3em;
+    color: white;
+    text-shadow: 4px 3px black;
+    background: rgba(50, 42, 168);
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
 }
-.right{
+
+p {
+    font-size: 1.7em;
+    background-color: rgba(50, 42, 168, 0.7);
+    border-radius: 2%;
+    margin-top: -2%;
+    width: 50%;
     text-align: center;
+    margin-left: 25%;
+    text-shadow: 1px 1px orange;
 }
-#banner{
+table,
+td,
+tr {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+ol{
+    list-style-type: none;
+    font-size: 2em;
+}
+
+.center {
+    text-align: center;
+    float: center;
+}
+#short{
+    width: 450px;
+    font-size: 1em;
+    position: relative;
+}
+.right {
+    float: right;
+    width: 500px;
+}
+
+.left {
+    float: left;
+    width: 500px;
+}
+
+/*Banner Start*/
+#banner {
     font-size: 1.8em;
     text-shadow: 5px 5px white;
 }
+
 .bg {
     padding-top: 20%;
     background-image: url("Banner.jpg");
@@ -35,42 +84,41 @@ table, td, tr{
     background-repeat: no-repeat;
     background-size: cover;
 }
-h2{
-    font-size: 4em;
-}
-p{
-    font-size: 2em;
-}
-nav{
+/*Banner End*/
+/*Nav Bar Start*/
+nav {
+    position: sticky;
+    top: 0;
     color: #e6e6e6;
     text-shadow: 3px 3px #1c1c1c;
-    text-align: center;
-    font-size: 2em;
-    padding-left: 35%;
-    padding-right: 35%; 
+    font-size: 2.3em;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
 }
 
-li {
+ul li {
     background-image: url(mineCraft.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-li a {
+ul li a {
     display: block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
+    text-align: center;
 }
-li:hover{
+
+ul li:hover {
     background-image: url(minecraftPressed.png);
     color: #ffffa1;
     text-shadow: 3px 3px #3d3d27;
 }
+
+/*Nav Bar End*/
