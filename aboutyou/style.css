@@ -22,7 +22,7 @@ header {
 h1 {
     text-align: center;
     position: relative;
-    top: -100px;
+    word-spacing: .5em;
     left: -20%;
     color: #003399;
     text-shadow: 0 10px 10px black;
